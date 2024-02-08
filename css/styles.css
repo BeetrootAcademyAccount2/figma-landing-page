@@ -1,0 +1,48 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background-color: #f5f2eb;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Helper Classes */
+
+.btn-primary {
+  color: #000000;
+  background-color: #aed6b3;
+  border-radius: 4px;
+}
+
+.btn-secondary {
+  color: #000000;
+  background-color: transparent;
+  border-radius: 40px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
