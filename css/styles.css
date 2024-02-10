@@ -2,11 +2,13 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   background-color: #f5f2eb;
+  padding: 18.5px 70px 0 180px;
 }
 
 button {
   font-family: inherit;
   font-size: inherit;
+  cursor: pointer;
 }
 
 /* Helper Classes */
@@ -15,12 +17,17 @@ button {
   color: #000000;
   background-color: #aed6b3;
   border-radius: 4px;
+  display: inline-block;
+  padding: 12px 12px 12px 18px;
 }
 
 .btn-secondary {
   color: #000000;
   background-color: transparent;
   border-radius: 40px;
+  border: none;
+  display: inline-block;
+  padding: 12px 18px;
 }
 
 .font-size-12 {
@@ -39,10 +46,117 @@ button {
   font-weight: 700;
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
 .mb-12 {
   margin-bottom: 12px;
 }
 
 .mb-32 {
   margin-bottom: 32px;
+}
+.txt-align-left {
+  text-align: left;
+}
+
+/* Navigation bar */
+
+.main-nav {
+  text-align: right;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+/* Sign In */
+
+.signin {
+  display: inline-block;
+  background-color: #ffffff;
+  width: 480px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 58px 52px 66px;
+}
+
+.signin h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.signin h2 {
+  font-size: 22px;
+  opacity: 0.2;
+}
+
+.signin-form label {
+  display: none;
+}
+
+.signin-form input {
+  display: inline-block;
+  width: 100%;
+  outline: none;
+  border: 1px solid #5d5d5d;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 14.5px 24px;
+  box-sizing: border-box;
+}
+
+.signin-form input::placeholder,
+.signin-form input::-moz-placeholder {
+  color: #797979;
+  opacity: 1;
+}
+/* 898889 */
+
+.forgot-password,
+.forgot-password:focus {
+  color: #898889;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.signin-button {
+  width: 100%;
+  border: none;
+  color: #ffffff;
+}
+
+.signin-with-txt {
+  color: #000000;
+}
+.signin-with-txt::after {
+  content: "-";
+}
+.signin-with-txt::before {
+  content: "-";
+}
+
+.missing-account {
+  color: #898889;
+}
+
+.social-media-buttons button {
+  border: 1px solid #000000;
+}
+.social-media-buttons button:nth-child(2) {
+  margin: 0 8px;
+}
+
+.register-now,
+.register-now:focus {
+  color: #000000;
+  text-decoration: none;
+}
+
+.img-section {
+  display: inline-block;
+  margin-top: 24px;
+  margin-left: 89px;
+  vertical-align: center;
 }
