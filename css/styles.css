@@ -61,6 +61,12 @@ button {
   text-align: left;
 }
 
+/* Content */
+
+.content {
+  text-align: center;
+}
+
 /* Navigation bar */
 
 .main-nav {
