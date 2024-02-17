@@ -64,7 +64,7 @@ button {
 /* Content */
 
 .content {
-  text-align: center;
+  /* //text-align: center; */
 }
 
 /* Navigation bar */
@@ -80,11 +80,13 @@ button {
 /* Sign In */
 
 .signin {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   background-color: #ffffff;
   width: 480px;
   border-radius: 30px;
-  text-align: center;
   padding: 58px 52px 66px;
 }
 
@@ -94,6 +96,7 @@ button {
 }
 
 .signin h2 {
+  text-align: center;
   font-size: 22px;
   opacity: 0.2;
 }
@@ -131,6 +134,13 @@ button {
   width: 100%;
   border: none;
   color: #ffffff;
+}
+
+.signin-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .signin-with-txt {
